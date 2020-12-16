@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh '''
                     chmod +x apache.sh
-                    . apache.sh
+                    ./apache.sh
                     '''
             }
         }
